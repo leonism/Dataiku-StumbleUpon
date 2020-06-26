@@ -1,0 +1,116 @@
+[
+    {
+        "parameters": {
+            "max_features": "auto", 
+            "n_estimators": 100, 
+            "min_samples_split": 3, 
+            "max_depth": 6, 
+            "min_samples_leaf": 1
+        }, 
+        "score_time": 930, 
+        "test_score": 0.7580613801790997, 
+        "fit_time": 4040, 
+        "num_samples": 1978, 
+        "best_iteration": null, 
+        "train_score": 0.8181433152646806, 
+        "parameter_id": 0, 
+        "time": 4970, 
+        "done_at": 1593095458607, 
+        "grid_point_id": "{\"max_features\": \"auto\", \"n_estimators\": 100, \"min_samples_split\": 3, \"max_depth\": 6, \"min_samples_leaf\": 1}@0"
+    }, 
+    {
+        "parameters": {
+            "max_features": "auto", 
+            "n_estimators": 100, 
+            "min_samples_split": 3, 
+            "max_depth": 15, 
+            "min_samples_leaf": 1
+        }, 
+        "score_time": 815, 
+        "test_score": 0.7748564551928376, 
+        "fit_time": 4622, 
+        "num_samples": 1978, 
+        "best_iteration": null, 
+        "train_score": 0.9984124592737899, 
+        "parameter_id": 1, 
+        "time": 5437, 
+        "done_at": 1593095458443, 
+        "grid_point_id": "{\"max_features\": \"auto\", \"n_estimators\": 100, \"min_samples_split\": 3, \"max_depth\": 15, \"min_samples_leaf\": 1}@0"
+    }, 
+    {
+        "parameters": {
+            "max_features": "auto", 
+            "n_estimators": 100, 
+            "min_samples_split": 3, 
+            "max_depth": 15, 
+            "min_samples_leaf": 1
+        }, 
+        "score_time": 855, 
+        "test_score": 0.74933671514707, 
+        "fit_time": 4961, 
+        "num_samples": 1977, 
+        "best_iteration": null, 
+        "train_score": 0.9966923854441399, 
+        "parameter_id": 1, 
+        "time": 5816, 
+        "done_at": 1593095458834, 
+        "grid_point_id": "{\"max_features\": \"auto\", \"n_estimators\": 100, \"min_samples_split\": 3, \"max_depth\": 15, \"min_samples_leaf\": 1}@1"
+    }, 
+    {
+        "parameters": {
+            "max_features": "auto", 
+            "n_estimators": 100, 
+            "min_samples_split": 3, 
+            "max_depth": 15, 
+            "min_samples_leaf": 1
+        }, 
+        "score_time": 936, 
+        "test_score": 0.7549146675088491, 
+        "fit_time": 4598, 
+        "num_samples": 1976, 
+        "best_iteration": null, 
+        "train_score": 0.9983152650501197, 
+        "parameter_id": 1, 
+        "time": 5534, 
+        "done_at": 1593095458574, 
+        "grid_point_id": "{\"max_features\": \"auto\", \"n_estimators\": 100, \"min_samples_split\": 3, \"max_depth\": 15, \"min_samples_leaf\": 1}@2"
+    }, 
+    {
+        "parameters": {
+            "max_features": "auto", 
+            "n_estimators": 100, 
+            "min_samples_split": 3, 
+            "max_depth": 6, 
+            "min_samples_leaf": 1
+        }, 
+        "score_time": 490, 
+        "test_score": 0.7291072954163176, 
+        "fit_time": 1859, 
+        "num_samples": 1977, 
+        "best_iteration": null, 
+        "train_score": 0.8204293855278803, 
+        "parameter_id": 0, 
+        "time": 2349, 
+        "done_at": 1593095460843, 
+        "grid_point_id": "{\"max_features\": \"auto\", \"n_estimators\": 100, \"min_samples_split\": 3, \"max_depth\": 6, \"min_samples_leaf\": 1}@1"
+    }, 
+    {
+        "parameters": {
+            "max_features": "auto", 
+            "n_estimators": 100, 
+            "min_samples_split": 3, 
+            "max_depth": 6, 
+            "min_samples_leaf": 1
+        }, 
+        "score_time": 399, 
+        "test_score": 0.7344285122492422, 
+        "fit_time": 2031, 
+        "num_samples": 1976, 
+        "best_iteration": null, 
+        "train_score": 0.8184220724338764, 
+        "parameter_id": 0, 
+        "time": 2430, 
+        "done_at": 1593095461024, 
+        "grid_point_id": "{\"max_features\": \"auto\", \"n_estimators\": 100, \"min_samples_split\": 3, \"max_depth\": 6, \"min_samples_leaf\": 1}@2"
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "parameters": {
+            "max_features": "auto", 
+            "n_estimators": 100, 
+            "min_samples_split": 3, 
+            "max_depth": 6, 
+            "min_samples_leaf": 1
+        }, 
+        "score_time": 692, 
+        "test_score": 0.8336804059675343, 
+        "fit_time": 9313, 
+        "num_samples": 1978, 
+        "best_iteration": null, 
+        "train_score": 0.9185338718058301, 
+        "parameter_id": 0, 
+        "time": 10005, 
+        "done_at": 1593105776577, 
+        "grid_point_id": "{\"max_features\": \"auto\", \"n_estimators\": 100, \"min_samples_split\": 3, \"max_depth\": 6, \"min_samples_leaf\": 1}@0"
+    }, 
+    {
+        "parameters": {
+            "max_features": "auto", 
+            "n_estimators": 100, 
+            "min_samples_split": 3, 
+            "max_depth": 6, 
+            "min_samples_leaf": 1
+        }, 
+        "score_time": 666, 
+        "test_score": 0.8191178669988384, 
+        "fit_time": 9637, 
+        "num_samples": 1977, 
+        "best_iteration": null, 
+        "train_score": 0.9163691580563949, 
+        "parameter_id": 0, 
+        "time": 10303, 
+        "done_at": 1593105776874, 
+        "grid_point_id": "{\"max_features\": \"auto\", \"n_estimators\": 100, \"min_samples_split\": 3, \"max_depth\": 6, \"min_samples_leaf\": 1}@1"
+    }, 
+    {
+        "parameters": {
+            "max_features": "auto", 
+            "n_estimators": 100, 
+            "min_samples_split": 3, 
+            "max_depth": 6, 
+            "min_samples_leaf": 1
+        }, 
+        "score_time": 487, 
+        "test_score": 0.8257841114633877, 
+        "fit_time": 9950, 
+        "num_samples": 1976, 
+        "best_iteration": null, 
+        "train_score": 0.9166010126838887, 
+        "parameter_id": 0, 
+        "time": 10437, 
+        "done_at": 1593105777027, 
+        "grid_point_id": "{\"max_features\": \"auto\", \"n_estimators\": 100, \"min_samples_split\": 3, \"max_depth\": 6, \"min_samples_leaf\": 1}@2"
+    }, 
+    {
+        "parameters": {
+            "max_features": "auto", 
+            "n_estimators": 100, 
+            "min_samples_split": 3, 
+            "max_depth": 15, 
+            "min_samples_leaf": 1
+        }, 
+        "score_time": 404, 
+        "test_score": 0.8417272039794478, 
+        "fit_time": 12871, 
+        "num_samples": 1978, 
+        "best_iteration": null, 
+        "train_score": 0.9988088320148238, 
+        "parameter_id": 1, 
+        "time": 13275, 
+        "done_at": 1593105779980, 
+        "grid_point_id": "{\"max_features\": \"auto\", \"n_estimators\": 100, \"min_samples_split\": 3, \"max_depth\": 15, \"min_samples_leaf\": 1}@0"
+    }, 
+    {
+        "parameters": {
+            "max_features": "auto", 
+            "n_estimators": 100, 
+            "min_samples_split": 3, 
+            "max_depth": 15, 
+            "min_samples_leaf": 1
+        }, 
+        "score_time": 429, 
+        "test_score": 0.8329003628347412, 
+        "fit_time": 7426, 
+        "num_samples": 1977, 
+        "best_iteration": null, 
+        "train_score": 0.9987390295700639, 
+        "parameter_id": 1, 
+        "time": 7855, 
+        "done_at": 1593105784480, 
+        "grid_point_id": "{\"max_features\": \"auto\", \"n_estimators\": 100, \"min_samples_split\": 3, \"max_depth\": 15, \"min_samples_leaf\": 1}@1"
+    }, 
+    {
+        "parameters": {
+            "max_features": "auto", 
+            "n_estimators": 100, 
+            "min_samples_split": 3, 
+            "max_depth": 15, 
+            "min_samples_leaf": 1
+        }, 
+        "score_time": 607, 
+        "test_score": 0.8317559503057698, 
+        "fit_time": 7134, 
+        "num_samples": 1976, 
+        "best_iteration": null, 
+        "train_score": 0.9987885368402032, 
+        "parameter_id": 1, 
+        "time": 7741, 
+        "done_at": 1593105784627, 
+        "grid_point_id": "{\"max_features\": \"auto\", \"n_estimators\": 100, \"min_samples_split\": 3, \"max_depth\": 15, \"min_samples_leaf\": 1}@2"
+    }
+]

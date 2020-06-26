@@ -1,0 +1,54 @@
+{
+    "num_values": [
+        0.17242981284774914, 
+        0.628911, 
+        29.995953464845726, 
+        0.0, 
+        0.10185805286039502, 
+        2.086859688, 
+        0.481481481, 
+        0.202453988, 
+        0.068292683, 
+        0.021929825, 
+        0.483642578, 
+        4.965267239925813, 
+        0.6600910470409712, 
+        0.28139200372685874, 
+        0.05651602469027135, 
+        177.90558084640028, 
+        5782.401281402799, 
+        0.23383159088990108
+    ], 
+    "cat_values": [
+        "recreation", 
+        "0", 
+        "1", 
+        "0"
+    ], 
+    "cat_columns": [
+        "alchemy_category", 
+        "hasDomainLink", 
+        "is_news", 
+        "news_front_page"
+    ], 
+    "num_columns": [
+        "parametrizedLinkRatio", 
+        "alchemy_category_score", 
+        "linkwordscore", 
+        "embed_ratio", 
+        "spelling_errors_ratio", 
+        "avglinksize", 
+        "commonlinkratio_1", 
+        "commonlinkratio_2", 
+        "commonlinkratio_3", 
+        "commonlinkratio_4", 
+        "compression_ratio", 
+        "numwords_in_url", 
+        "lengthyLinkDomain", 
+        "image_ratio", 
+        "frameTagRatio", 
+        "numberOfLinks", 
+        "non_markup_alphanum_characters", 
+        "html_ratio"
+    ]
+}

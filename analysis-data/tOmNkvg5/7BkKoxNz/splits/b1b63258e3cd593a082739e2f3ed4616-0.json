@@ -1,0 +1,73 @@
+{
+  "params": {
+    "ttPolicy": "SPLIT_SINGLE_DATASET",
+    "ssdSplitMode": "RANDOM",
+    "splitBeforePrepare": true,
+    "ssdSelection": {
+      "useMemTable": false,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "partitionSelectionMethod": "ALL",
+      "latestPartitionsN": 1,
+      "ordering": {
+        "enabled": false,
+        "rules": []
+      },
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "maxRecords": 100000,
+      "targetRatio": 0.02,
+      "withinFirstN": -1,
+      "maxReadUncompressedBytes": -1
+    },
+    "ssdTrainingRatio": 0.8,
+    "ssdSeed": 1337,
+    "testOnLargerValues": true,
+    "kfold": false,
+    "nFolds": 5,
+    "instanceIdRefresher": 0,
+    "subSamplingSeed": 1337
+  },
+  "generationDate": 1593095431173,
+  "policyId": "type\u003dSPLIT_SINGLE_DATASET,split\u003dRANDOM,splitBeforePrepare\u003dtrue,ds\u003dtrain_prepared,sel\u003d(method\u003dhead-s,records\u003d100000),r\u003d0.8,s\u003d1337",
+  "instanceId": "b1b63258e3cd593a082739e2f3ed4616-0",
+  "format": "csv1",
+  "schema": {
+    "columns": [
+      {"name":"url","type":"string"},
+      {"name":"urlid","type":"bigint"},
+      {"name":"boilerplate","type":"string"},
+      {"name":"alchemy_category","type":"string"},
+      {"name":"alchemy_category_score","type":"double"},
+      {"name":"avglinksize","type":"double"},
+      {"name":"commonlinkratio_1","type":"double"},
+      {"name":"commonlinkratio_2","type":"double"},
+      {"name":"commonlinkratio_3","type":"double"},
+      {"name":"commonlinkratio_4","type":"double"},
+      {"name":"compression_ratio","type":"double"},
+      {"name":"embed_ratio","type":"double"},
+      {"name":"framebased","type":"bigint"},
+      {"name":"frameTagRatio","type":"double"},
+      {"name":"hasDomainLink","type":"bigint"},
+      {"name":"html_ratio","type":"double"},
+      {"name":"image_ratio","type":"double"},
+      {"name":"is_news","type":"bigint"},
+      {"name":"lengthyLinkDomain","type":"bigint"},
+      {"name":"linkwordscore","type":"bigint"},
+      {"name":"news_front_page","type":"bigint"},
+      {"name":"non_markup_alphanum_characters","type":"bigint"},
+      {"name":"numberOfLinks","type":"bigint"},
+      {"name":"numwords_in_url","type":"bigint"},
+      {"name":"parametrizedLinkRatio","type":"double"},
+      {"name":"spelling_errors_ratio","type":"double"},
+      {"name":"label","type":"bigint"}
+    ],
+    "userModified": false
+  },
+  "trainPath": "train-b1b63258e3cd593a082739e2f3ed4616-0.csv.gz",
+  "testPath": "test-b1b63258e3cd593a082739e2f3ed4616-0.csv.gz",
+  "trainRows": 5931,
+  "testRows": 1464,
+  "fullRows": 0
+}

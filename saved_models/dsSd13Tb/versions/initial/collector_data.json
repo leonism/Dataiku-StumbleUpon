@@ -1,0 +1,329 @@
+{
+    "per_feature": {
+        "commonlinkratio_1": {
+            "stats": {
+                "std": 0.20310951719282244, 
+                "p99": 0.8573621551, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.466958503512393, 
+                "median": 0.481481481
+            }, 
+            "missing_impute_with_value": 0.481481481
+        }, 
+        "commonlinkratio_2": {
+            "stats": {
+                "std": 0.14557530315372974, 
+                "p99": 0.6387492111999997, 
+                "min": 0.0, 
+                "max": 0.973643411, 
+                "average": 0.21312793040600303, 
+                "median": 0.202453988
+            }, 
+            "missing_impute_with_value": 0.202453988
+        }, 
+        "commonlinkratio_3": {
+            "stats": {
+                "std": 0.09429287097091885, 
+                "p99": 0.43001068399999953, 
+                "min": 0.0, 
+                "max": 0.903875969, 
+                "average": 0.09149794774692292, 
+                "median": 0.068292683
+            }, 
+            "missing_impute_with_value": 0.068292683
+        }, 
+        "commonlinkratio_4": {
+            "stats": {
+                "std": 0.07039570560518468, 
+                "p99": 0.3308571908, 
+                "min": 0.0, 
+                "max": 0.710482529, 
+                "average": 0.04867823446990381, 
+                "median": 0.021929825
+            }, 
+            "missing_impute_with_value": 0.021929825
+        }, 
+        "framebased": {
+            "stats": {}
+        }, 
+        "image_ratio": {
+            "stats": {
+                "std": 2.0566771643085566, 
+                "p99": 4.568899521099993, 
+                "min": -1.0, 
+                "max": 113.3333333, 
+                "average": 0.28139200372685874, 
+                "median": 0.082132565
+            }, 
+            "missing_impute_with_value": 0.28139200372685874
+        }, 
+        "is_news": {
+            "missing_impute_with_value": "1", 
+            "stats": {
+                "mostFrequentValue": "1", 
+                "leastFrequentValue": "0"
+            }, 
+            "category_possible_counts": [
+                3660
+            ], 
+            "category_possible_values": [
+                "1"
+            ]
+        }, 
+        "parametrizedLinkRatio": {
+            "stats": {
+                "std": 0.1834420855862714, 
+                "p99": 0.8341031938999987, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.17242981284774914, 
+                "median": 0.113207547
+            }, 
+            "missing_impute_with_value": 0.17242981284774914
+        }, 
+        "alchemy_category_score": {
+            "stats": {
+                "std": 0.21291998321999842, 
+                "p99": 0.9555567599999997, 
+                "min": 0.0708333, 
+                "max": 0.999426, 
+                "average": 0.604589721550656, 
+                "median": 0.628911
+            }, 
+            "missing_impute_with_value": 0.628911
+        }, 
+        "lengthyLinkDomain": {
+            "stats": {
+                "std": 0.4737179469122311, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.6600910470409712, 
+                "median": 1.0
+            }, 
+            "missing_impute_with_value": 0.6600910470409712
+        }, 
+        "label": {
+            "stats": {}
+        }, 
+        "numwords_in_url": {
+            "stats": {
+                "std": 3.2424473157660443, 
+                "p99": 14.0, 
+                "min": 0.0, 
+                "max": 22.0, 
+                "average": 4.965267239925813, 
+                "median": 5.0
+            }, 
+            "missing_impute_with_value": 4.965267239925813
+        }, 
+        "alchemy_category": {
+            "missing_impute_with_value": "recreation", 
+            "stats": {
+                "mostFrequentValue": "recreation", 
+                "leastFrequentValue": "weather"
+            }, 
+            "category_possible_counts": [
+                985, 
+                749, 
+                716, 
+                403, 
+                311, 
+                270, 
+                230, 
+                210, 
+                66, 
+                59, 
+                29, 
+                5
+            ], 
+            "category_possible_values": [
+                "recreation", 
+                "arts_entertainment", 
+                "business", 
+                "health", 
+                "sports", 
+                "culture_politics", 
+                "computer_internet", 
+                "science_technology", 
+                "gaming", 
+                "religion", 
+                "law_crime", 
+                "unknown"
+            ]
+        }, 
+        "spelling_errors_ratio": {
+            "stats": {
+                "std": 0.07965551620741498, 
+                "p99": 0.454545455, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.10185805286039502, 
+                "median": 0.089770355
+            }, 
+            "missing_impute_with_value": 0.10185805286039502
+        }, 
+        "boilerplate_url": {
+            "stats": {}
+        }, 
+        "linkwordscore": {
+            "stats": {
+                "std": 20.295747163664444, 
+                "p99": 86.0, 
+                "min": 0.0, 
+                "max": 100.0, 
+                "average": 29.995953464845726, 
+                "median": 25.0
+            }, 
+            "missing_impute_with_value": 29.995953464845726
+        }, 
+        "boilerplate_body": {
+            "stats": {}, 
+            "missing_impute_with_value": ""
+        }, 
+        "non_markup_alphanum_characters": {
+            "stats": {
+                "std": 9213.422623869412, 
+                "p99": 44630.29999999998, 
+                "min": 0.0, 
+                "max": 207952.0, 
+                "average": 5782.401281402799, 
+                "median": 3499.0
+            }, 
+            "missing_impute_with_value": 5782.401281402799
+        }, 
+        "boilerplate_related": {
+            "stats": {}
+        }, 
+        "news_front_page": {
+            "missing_impute_with_value": "0", 
+            "stats": {
+                "mostFrequentValue": "0", 
+                "leastFrequentValue": "1"
+            }, 
+            "category_possible_counts": [
+                4696
+            ], 
+            "category_possible_values": [
+                "0"
+            ]
+        }, 
+        "urlid": {
+            "stats": {}
+        }, 
+        "boilerplate_title": {
+            "stats": {}
+        }, 
+        "html_ratio": {
+            "stats": {
+                "std": 0.05235770564698279, 
+                "p99": 0.40139158019999993, 
+                "min": 0.045564223, 
+                "max": 0.716883117, 
+                "average": 0.23383159088990108, 
+                "median": 0.230641092
+            }, 
+            "missing_impute_with_value": 0.23383159088990108
+        }, 
+        "hasDomainLink": {
+            "missing_impute_with_value": "0", 
+            "stats": {
+                "mostFrequentValue": "0", 
+                "leastFrequentValue": "1"
+            }, 
+            "category_possible_counts": [], 
+            "category_possible_values": []
+        }, 
+        "embed_ratio": {
+            "stats": {
+                "std": 0.30747811139121506, 
+                "p99": 0.0236434109999999, 
+                "min": -1.0, 
+                "max": 0.25, 
+                "average": -0.10446383354999152, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.0
+        }, 
+        "frameTagRatio": {
+            "stats": {
+                "std": 0.041792846486007174, 
+                "p99": 0.1992038291, 
+                "min": 0.0, 
+                "max": 0.444444444, 
+                "average": 0.05651602469027135, 
+                "median": 0.046004843
+            }, 
+            "missing_impute_with_value": 0.05651602469027135
+        }, 
+        "avglinksize": {
+            "stats": {
+                "std": 8.154939315168924, 
+                "p99": 10.179999998999987, 
+                "min": 0.0, 
+                "max": 363.0, 
+                "average": 2.7050773172886506, 
+                "median": 2.086859688
+            }, 
+            "missing_impute_with_value": 2.086859688
+        }, 
+        "numberOfLinks": {
+            "stats": {
+                "std": 184.68089114928864, 
+                "p99": 767.6999999999998, 
+                "min": 1.0, 
+                "max": 4997.0, 
+                "average": 177.90558084640028, 
+                "median": 138.0
+            }, 
+            "missing_impute_with_value": 177.90558084640028
+        }, 
+        "compression_ratio": {
+            "stats": {
+                "std": 5.7333949561711215, 
+                "p99": 21.0, 
+                "min": 0.0, 
+                "max": 21.0, 
+                "average": 2.275581644613045, 
+                "median": 0.483642578
+            }, 
+            "missing_impute_with_value": 0.483642578
+        }, 
+        "url": {
+            "stats": {}
+        }
+    }, 
+    "feature_order": [
+        "commonlinkratio_1", 
+        "commonlinkratio_2", 
+        "commonlinkratio_3", 
+        "commonlinkratio_4", 
+        "framebased", 
+        "image_ratio", 
+        "is_news", 
+        "parametrizedLinkRatio", 
+        "alchemy_category_score", 
+        "lengthyLinkDomain", 
+        "label", 
+        "numwords_in_url", 
+        "alchemy_category", 
+        "spelling_errors_ratio", 
+        "boilerplate_url", 
+        "linkwordscore", 
+        "boilerplate_body", 
+        "non_markup_alphanum_characters", 
+        "boilerplate_related", 
+        "news_front_page", 
+        "urlid", 
+        "boilerplate_title", 
+        "html_ratio", 
+        "hasDomainLink", 
+        "embed_ratio", 
+        "frameTagRatio", 
+        "avglinksize", 
+        "numberOfLinks", 
+        "compression_ratio", 
+        "url"
+    ]
+}

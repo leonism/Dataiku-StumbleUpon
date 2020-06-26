@@ -1,0 +1,53 @@
+{
+    "rawImportance": {
+        "variables": [
+            "linkwordscore", 
+            "non_markup_alphanum_characters", 
+            "spelling_errors_ratio", 
+            "dummy:alchemy_category:health", 
+            "dummy:alchemy_category:sports", 
+            "thsvd:boilerplate_body:0", 
+            "thsvd:boilerplate_body:1", 
+            "thsvd:boilerplate_body:2", 
+            "thsvd:boilerplate_body:3", 
+            "thsvd:boilerplate_body:5", 
+            "thsvd:boilerplate_body:7", 
+            "thsvd:boilerplate_body:11", 
+            "thsvd:boilerplate_body:12", 
+            "thsvd:boilerplate_body:18", 
+            "thsvd:boilerplate_body:30", 
+            "thsvd:boilerplate_body:34", 
+            "thsvd:boilerplate_body:38", 
+            "thsvd:boilerplate_body:41", 
+            "thsvd:boilerplate_body:44", 
+            "thsvd:boilerplate_body:96"
+        ], 
+        "importances": [
+            0.030133449049009484, 
+            0.03198619990007399, 
+            0.01006392897540087, 
+            0.01041590601765472, 
+            0.005545502173298268, 
+            0.027618501336445538, 
+            0.18768085010860872, 
+            0.3139396593603034, 
+            0.1488780360184489, 
+            0.009280075902518963, 
+            0.06823742367523809, 
+            0.06069504970289619, 
+            0.024794583395002807, 
+            0.027184445122598374, 
+            0.008225382757969232, 
+            0.0150799091931374, 
+            0.008754693853790352, 
+            0.004595953690521882, 
+            0.0046333496374822685, 
+            0.00225710012960049
+        ]
+    }, 
+    "probaAware": true, 
+    "modelInputNRows": 5931, 
+    "modelInputNCols": 141, 
+    "modelInputMemory": 6690168, 
+    "modelInputIsSparse": false
+}

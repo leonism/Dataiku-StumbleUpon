@@ -1,0 +1,37 @@
+{
+    "details": {
+        "alchemy_category": {
+            "levels": [
+                "recreation", 
+                "arts_entertainment", 
+                "business", 
+                "health", 
+                "sports", 
+                "culture_politics", 
+                "computer_internet", 
+                "science_technology", 
+                "gaming", 
+                "religion", 
+                "law_crime", 
+                "unknown"
+            ], 
+            "with_others": false
+        }, 
+        "hasDomainLink": {
+            "levels": [], 
+            "with_others": false
+        }, 
+        "is_news": {
+            "levels": [
+                "1"
+            ], 
+            "with_others": false
+        }, 
+        "news_front_page": {
+            "levels": [
+                "0"
+            ], 
+            "with_others": false
+        }
+    }
+}

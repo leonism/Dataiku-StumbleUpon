@@ -1,0 +1,289 @@
+{
+  "type": "Filesystem",
+  "managed": true,
+  "formatType": "csv",
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "style": "unix",
+    "charset": "utf8",
+    "separator": "\t",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
+    "hiveSeparators": [
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
+      "\b"
+    ],
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": false,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 0,
+    "normalizeBooleans": false,
+    "normalizeDoubles": true,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": "gz"
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1593106436416
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1593106404082
+  },
+  "tags": [],
+  "params": {
+    "connection": "filesystem_managed",
+    "path": "${projectKey}/test_prepared",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "url",
+        "type": "string"
+      },
+      {
+        "name": "urlid",
+        "type": "bigint"
+      },
+      {
+        "name": "boilerplate_title",
+        "type": "string"
+      },
+      {
+        "name": "boilerplate_body",
+        "type": "string"
+      },
+      {
+        "name": "boilerplate_related",
+        "type": "string"
+      },
+      {
+        "name": "boilerplate_url",
+        "type": "string"
+      },
+      {
+        "name": "alchemy_category",
+        "type": "string"
+      },
+      {
+        "name": "alchemy_category_score",
+        "type": "string"
+      },
+      {
+        "name": "avglinksize",
+        "type": "double"
+      },
+      {
+        "name": "commonlinkratio_1",
+        "type": "double"
+      },
+      {
+        "name": "commonlinkratio_2",
+        "type": "double"
+      },
+      {
+        "name": "commonlinkratio_3",
+        "type": "double"
+      },
+      {
+        "name": "commonlinkratio_4",
+        "type": "double"
+      },
+      {
+        "name": "compression_ratio",
+        "type": "double"
+      },
+      {
+        "name": "embed_ratio",
+        "type": "double"
+      },
+      {
+        "name": "framebased",
+        "type": "bigint"
+      },
+      {
+        "name": "frameTagRatio",
+        "type": "double"
+      },
+      {
+        "name": "hasDomainLink",
+        "type": "bigint"
+      },
+      {
+        "name": "html_ratio",
+        "type": "double"
+      },
+      {
+        "name": "image_ratio",
+        "type": "double"
+      },
+      {
+        "name": "is_news",
+        "type": "string"
+      },
+      {
+        "name": "lengthyLinkDomain",
+        "type": "bigint"
+      },
+      {
+        "name": "linkwordscore",
+        "type": "bigint"
+      },
+      {
+        "name": "news_front_page",
+        "type": "string"
+      },
+      {
+        "name": "non_markup_alphanum_characters",
+        "type": "bigint"
+      },
+      {
+        "name": "numberOfLinks",
+        "type": "bigint"
+      },
+      {
+        "name": "numwords_in_url",
+        "type": "bigint"
+      },
+      {
+        "name": "parametrizedLinkRatio",
+        "type": "double"
+      },
+      {
+        "name": "spelling_errors_ratio",
+        "type": "double"
+      }
+    ],
+    "userModified": true
+  },
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}
